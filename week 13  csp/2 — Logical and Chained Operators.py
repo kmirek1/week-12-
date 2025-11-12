@@ -38,7 +38,7 @@ elif 60 <= score <= 69:
     print("Grade: D")
 # if score is 50 or below assign grade F
 # assign grade F
-else 0 <= score <= 50:
+else:
     print("Grade: F")
 
 # Practice Problems:
@@ -50,8 +50,19 @@ if 50<=num<=100:
 else:
     print("Number is not between 50 and 100.")
 # Write an expression that checks if a number is NOT equal to 0 and greater than 10.
-
+num2 = int(input("Enter a number:"))
+if num2 != 0 and num2 > 10:
+    print("Number is NOT equal to 0 and greater than 10.")
 # Use chained comparison to check if 3 < 4 < 5.
-
+num3 = 4
+print(num3 > 3 and num3 < 5)   # True
+print(num3 < 5 or num3 == 4)   # True
+print(not(num3 == 5))       # True
+print(3 < 4 < 5)         # True
 # Challenge: Create a password rule using logical operators:
 
+password = int(input("Enter password (password must be a number between 200 and 700):"))
+if 200<=password<=700:
+    print("Password is valid")
+else:
+    print("Password is invalid")
