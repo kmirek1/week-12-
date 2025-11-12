@@ -53,6 +53,8 @@ else:
 num2 = int(input("Enter a number:"))
 if num2 != 0 and num2 > 10:
     print("Number is NOT equal to 0 and greater than 10.")
+else: 
+    print("Number is invalid")
 # Use chained comparison to check if 3 < 4 < 5.
 num3 = 4
 print(num3 > 3 and num3 < 5)   # True
