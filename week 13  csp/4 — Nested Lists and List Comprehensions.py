@@ -92,4 +92,3 @@ com_list = [row[2] for row in matrix]
 print(com_list)
 # Challenge: Create a new list containing squares of numbers from 1–10 using a comprehension.
 squared_nums = [x**2 for x in range (1,1)]
-
