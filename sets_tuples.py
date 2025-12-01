@@ -11,7 +11,7 @@ print(set1) #{1, 3, 4, 5, 6}
 set2 = {"apples", "banana" , "cherry", "cherry"}
 print(set2)
 
-#tuples
+#tuples examples:
 tuple1 = (1, 2, 3, 4, 5)
 print(tuple1) #(1, 2, 3, 4, 5)
 print(type(tuple1))
